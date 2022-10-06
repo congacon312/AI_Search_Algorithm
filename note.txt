@@ -1,0 +1,19 @@
+1 node có các giá trị sau:
+    x, y, value, radius = 10
+
+    RES = WIDTH, HEIGHT = 750, 540
+    TILE = 30
+    cols  = 25 
+    rows = 18
+
+    size của graphs = 24 * 17 = 408
+    open_set: biên
+    close_set: các nút đã duyệt
+
+    python .\main.py --algo BFS --start 71 --goal 321
+
+    python .\main.py --algo DFS --start 71 --goal 231
+
+
+Mã giả của BFS:
+
