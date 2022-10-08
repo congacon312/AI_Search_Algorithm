@@ -10,12 +10,13 @@
     open_set: biên
     close_set: các nút đã duyệt
 
-    python .\main.py --algo BFS --start 71 --goal 218
+    python .\main.py --algo BFS --start 71 --goal 143
 
-    python .\main.py --algo DFS --start 71 --goal 218
+    python .\main.py --algo DFS --start 71 --goal 348
 
+    python .\main.py --algo UCS --start 71 --goal 143
 
-    python .\main.py --algo UCS --start 71 --goal 218
+    python .\main.py --algo AStar --start 71 --goal 217
 
 Mã giả của BFS:
 

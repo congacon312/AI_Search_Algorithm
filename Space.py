@@ -102,5 +102,5 @@ class Graph:
         self.grid_cells[node.value].set_color(color)
         self.draw(sc)
 
-    def calculatorCost(self, node: Node):
+    def heuristic(self, node: Node):
         return sqrt(pow(self.goal.x - node.x, 2) + pow(self.goal.y - node.y, 2))
